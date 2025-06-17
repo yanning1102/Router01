@@ -1,0 +1,28 @@
+cd .\Desktop\碩\路由器\hw2\考古
+gcc -std=c99 -o binary_trie binary_trie.c
+binary_trie ipv4_rrc_all_90build.txt ipv4_rrc_all_10insert.txt
+
+gcc -std=c99 -o 4bit_trie 4bit_trie.c
+4bit_trie ipv4_rrc_all_90build.txt ipv4_rrc_all_10insert.txt
+
+gcc -std=c99 -o 1level_push 1level_push.c
+1level_push ipv4_rrc_all_90build.txt ipv4_rrc_all_10insert.txt
+
+gcc -std=c99 -o bitmap_tree bitmap_tree.c
+bitmap_tree ipv4_rrc_all_90build.txt ipv4_rrc_all_10insert.txt
+
+gcc -std=c99 -o tree_bitmap tree_bitmap.c
+tree_bitmap ipv4_rrc_all_90build.txt ipv4_rrc_all_10insert.txt
+
+
+wsl企鵝
+cd /mnt/c/Users/zora9/Desktop
+
+cd 碩
+cd 路由器
+cd hw2
+cd 考古
+gcc -std=c99 -o bitmap_tree_ipv6 bitmap_tree_ipv6.c
+./bitmap_tree_ipv6 ipv6_rrc_90build.txt ipv6_rrc_10insert.txt
+
+
